@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+    "build": "rm -rf public && mkdir public && echo 'Hola mundo' > ./public/index.html"
   },
   "dependencies": {
     "express": "^4.17.1"
