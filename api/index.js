@@ -10,7 +10,7 @@ app.use(cors())
 mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('*', (req, res) => {
-  res.send('Hpoooolaaaa hijo de puta')
+  res.send('Hpoooolaaaa hijo de putaa')
 })
 
 module.exports = app
